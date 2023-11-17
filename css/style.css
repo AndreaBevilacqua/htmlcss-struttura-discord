@@ -1,0 +1,101 @@
+/* css reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* generics */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px dashed black;
+}
+
+.info-container {
+    background-color: #ADD8E6;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-column {
+    flex-basis: 25%;
+    min-height: 50px;
+    background-color: orange;
+}
+.right-column {
+    flex-basis: 25%;
+}
+.center-column {
+    flex-basis: 50%;
+}
+
+.download-container {
+    background-color: blue;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.p {
+    background-color: #EE82EE;
+    flex-basis: 50%;
+    min-height: 250px;
+    border: 1px solid black; 
+}
+
+.ctn-first{
+    min-height: 400px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctn-second{
+    min-height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-column{
+    flex-basis: 40%;
+    height: 300px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+.small-column{
+    flex-basis: 30%;
+    height: 300px;
+    background-color: lightpink;
+    border: 1px solid black;
+}
+
+.main-footer {
+    background-color: lightgrey;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.p-footer {
+    background-color: green;
+    flex-basis: 70%;
+    min-height: 600px;
+    border: 1px solid black; 
+}
+
+
+    
+  
